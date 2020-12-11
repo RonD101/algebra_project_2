@@ -71,15 +71,17 @@ void boards_counter(int N, int &counter, int **board) {
 }
 
 bool boardIsValid(int **board, int N) {
-    for (int i = 0; i < N ; ++i) {
-        for (int j = 0; j < i ; ++j) {
-            if (board[i][j] != board[j][i]){
-                return false;
+        for (int c = 0; c < N; ++c) {
+            for (int s = 0; s < N; ++s) {
+                for (int t = 0; t < N; ++t) {
+                    int k = board[c][board[s][t]-1];
+                    int j = board[board[c][s]-1][t];
+                    if(k != j)
+                        return false;
+                }
             }
         }
-    }
     return true;
-
 }
 
 bool isSafe(int i, int j, int **board, int N, int num) {
