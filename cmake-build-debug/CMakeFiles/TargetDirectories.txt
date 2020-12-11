@@ -1,0 +1,3 @@
+/Users/rond/OneDrive - Technion/רון ענן/טכניון/סמסטר ג/אלגברה מודרנית/פרויקט 2 מודרנית/algebra_project_2/cmake-build-debug/CMakeFiles/rebuild_cache.dir
+/Users/rond/OneDrive - Technion/רון ענן/טכניון/סמסטר ג/אלגברה מודרנית/פרויקט 2 מודרנית/algebra_project_2/cmake-build-debug/CMakeFiles/edit_cache.dir
+/Users/rond/OneDrive - Technion/רון ענן/טכניון/סמסטר ג/אלגברה מודרנית/פרויקט 2 מודרנית/algebra_project_2/cmake-build-debug/CMakeFiles/algebra_project_2.dir
