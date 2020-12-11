@@ -19,7 +19,7 @@ void printBoard(int **board,int N);
 
 int main() {
 
-    // This code produces all the groups including the isomorphisms ones.
+    // This code produces all the groups including the isomorphism ones.
     // i.e for N=4 we get 4 groups, but 3 of them are basically the same.
     // We need to check for permutations for each pair of matrices we get.
     // Than "delete" all of them except for 1.
